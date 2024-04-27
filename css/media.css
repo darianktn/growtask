@@ -117,7 +117,9 @@
 
 @media (max-width: 1200px) {
 	.burger {
-		display: block;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 
 	.hero__title {
@@ -677,5 +679,29 @@
 		height: 100%;
 		-o-object-fit: cover;
 		object-fit: cover;
+	}
+
+	@media (max-width: 375px) {
+		.container {
+			padding: 0 4vw 05 vw;
+		}
+
+		/* header */
+
+		header {
+			padding: 8px 17px 7px 15px;
+		}
+
+		.hero {
+			padding: 135px 0 80px;
+		}
+
+		.hero__link-wrapper .form-link {
+			font-size: 14px;
+		}
+
+		.logo-wrap {
+			padding-top: 5px;
+		}
 	}
 }
